@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.wrapper {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+span {
+  color: rgb(3, 93, 121);
+}
+.flex-wrapper {
+  display: flex;
+  margin-top: 1em;
+}
+.part-1 {
+  width: 70%;
+}
+.part-2 {
+  width: 30%;
+}
+
+img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+.point {
+  color: rgb(3, 93, 121);
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+td,
+th {
+  border-bottom: 1px solid #c0c0c0;
+  text-align: left;
+  padding: 8px;
+}
+.points {
+  margin-left: 1.5em;
+}
+
+.contact {
+  margin-top: 1em;
+}
+
+form {
+  font-weight: bold;
+}
+
+input[type="text"] {
+  padding: 1em;
+  width: 100%;
+}
+input[type="email"] {
+  padding: 1em;
+  width: 30%;
+}
+input[type="submit"] {
+  padding: 1em;
+}
